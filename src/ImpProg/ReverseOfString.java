@@ -2,7 +2,7 @@ package ImpProg;
 
 import java.util.Scanner;
 
-public class RevereOfString {
+public class ReverseOfString {
      public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
 
