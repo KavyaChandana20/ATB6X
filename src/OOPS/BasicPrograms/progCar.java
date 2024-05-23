@@ -1,4 +1,4 @@
-package OOPS;
+package OOPS.BasicPrograms;
 
 public class progCar {
     public static void main(String[] args) {
