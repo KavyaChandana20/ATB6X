@@ -1,4 +1,4 @@
-package OOPS.staticKeyword;
+package OOPS.staticKeyword.example1;
 
 class ATB
 {

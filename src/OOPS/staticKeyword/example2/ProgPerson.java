@@ -1,4 +1,4 @@
-package OOPS.staticKeyword;
+package OOPS.staticKeyword.example2;
 
 public class ProgPerson
 {
