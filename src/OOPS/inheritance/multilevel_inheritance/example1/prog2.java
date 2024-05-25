@@ -7,7 +7,7 @@ public class prog2
         GrandFather g1 = new GrandFather();
         g1.home(); //1bhk
 
-        //grandfather has access to father as well as child class
+        //grandfather ref has access to father as well as child class --> dynamic dispatch
         GrandFather g2 = new Father(); // creating obj for child class using parent class[grandfather]
         g2.home(); //2bhk
 

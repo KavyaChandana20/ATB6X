@@ -2,11 +2,12 @@ package OOPS.BasicPrograms;
 
 public class progATBperson
 {
-    public static void main(String[] args) {
-
+    public static void main(String[] args)
+    {
         //DefaultConstructor
         ATBperson a1 = new ATBperson();
         System.out.println("*******************");
+
         //Parameterized constructor1
         ATBperson a2 = new ATBperson("Kavya",1234567890,"kkk@gmail.com",false,"ATB");
         System.out.println("Name : "+a2.name);
