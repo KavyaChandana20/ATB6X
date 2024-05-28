@@ -1,4 +1,4 @@
-package Exceptions;
+package Exceptions.Custom;
 
 public class Bank
 {
