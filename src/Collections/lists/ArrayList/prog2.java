@@ -1,8 +1,7 @@
-package Collections.ArrayList;
+package Collections.lists.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.List;
 
 public class prog2 {
     public static void main(String[] args)
@@ -20,6 +19,9 @@ public class prog2 {
         l1.add("Kavya");
         l1.add("JJJ");
         l1.add("LLL");
+        l1.add(null); // we can also add null
+        l1.add(null);
+
 
         System.out.println("Printing using for each loop");
         for (String str : l1)

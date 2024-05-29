@@ -1,4 +1,4 @@
-package Collections.ArrayList;
+package Collections.lists.ArrayList;
 
 import java.util.ArrayList;
 import java.util.Collection;
@@ -10,9 +10,9 @@ public class prog1
     public static void main(String[] args)
     {
         ArrayList l = new ArrayList(); // child ref --> child obj
-        List l1 = new ArrayList();  // Parent ref --> child obj
-        SequencedCollection l2 = new ArrayList(); // Grand Parent ref -> Child Obj
-        Collection l3 = new ArrayList(); //Grand Grand Parent ref -> Child Obj
+      //  List l1 = new ArrayList();  // Parent ref --> child obj
+      //  SequencedCollection l2 = new ArrayList(); // Grand Parent ref -> Child Obj
+      //  Collection l3 = new ArrayList(); //Grand Grand Parent ref -> Child Obj
 
         /*This is dynamic dispacth.
           we can also create an obj using dynamic dispatch.
@@ -43,6 +43,8 @@ public class prog1
         l.add("AAA");
         l.add("BBB");
         l.add("Kavya"); // Duplicate
+        l.add(null); // we can also add null
+        l.add(null);
         System.out.println("printing after adding again :");
         System.out.println(l);
 
@@ -50,9 +52,11 @@ public class prog1
         l.set(3, "Kavya Ch");
         System.out.println("appending Ch to Kavya by using set method");
         System.out.println(l);
-
+        System.out.println("");
         l.add(123);
         l.add(true);
+
+        l.indexOf(123);
         System.out.println(l);
 
         System.out.println("");
