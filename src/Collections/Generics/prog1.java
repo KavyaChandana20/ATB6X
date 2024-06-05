@@ -1,6 +1,6 @@
-package Collections;
+package Collections.Generics;
 
-class Generics
+class prog1
 {
     public static void main(String[] args) {
         printF(3,4);
